@@ -8,7 +8,7 @@ Dataset is created by scraping beyazperde.com (Turkish movie review site). By us
 
 **Methods:**
 
-- **Data preprocessing**: While scraping movie review website, data processing was necessary because of Turkish characters (i,ü,ö,ç,ğ), punctuation marks etc. DatasetGenerationaAndPreprocessing.py file is attached to the project for information purposes. You do not need to run it.
+- **Data preprocessing**: While scraping movie review website, data processing was necessary because of Turkish characters (i,ü,ö,ç,ğ), punctuation marks etc. **DatasetGenerationaAndPreprocessing.py** file is attached to the project for information purposes. You do not need to run it.
 
  - **Word2Vec** : This method is used to generate vector representation of the sentences. A corpus is created by using all of the reviews to train this model. (corpus :review_all.txt)
 
